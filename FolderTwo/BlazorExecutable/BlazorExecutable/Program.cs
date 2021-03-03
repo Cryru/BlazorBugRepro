@@ -23,7 +23,7 @@ namespace BlazorLibrary
 
 namespace BlazorExecutable
 {
-    public class Program
+    public class ExecutableEntryPoint
     {
         public static async Task Main(string[] args)
         {
