@@ -7,6 +7,19 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using BlazorLibrary;
+using BlazorLibrarySameFolder;
+
+// Define both namespaces so that this compiles regardless of which library is referenced.
+namespace BlazorLibrarySameFolder
+{
+
+}
+
+namespace BlazorLibrary
+{
+
+}
 
 namespace BlazorExecutable
 {
